@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Demo09_Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_app">Demo Fragment</string>
+    <string name="release_date">Date de sortie : %s</string>
+    <string name="film_not_found">Film non trouvé !</string>
+    <string name="movie_no_desc">Pas de description :(</string>
+    <string name="alert_delete_title">Suppression ?</string>
+    <string name="alert_delete_message">Êtes vous sûr de vouloir supprimer :\n« %s »</string>
+    <string name="snack_movie_removed">Film supprimé !</string>
+    <string name="btn_undo">Annuler</string>
+</resources>

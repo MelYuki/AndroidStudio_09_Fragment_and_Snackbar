@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.MovieDetailFragment">
+
+    <TextView
+        android:id="@+id/lv_frag_movie_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:text="Title Movie"
+        tools:ignore="HardcodedText"
+        />
+
+    <TextView
+        android:id="@+id/lv_frag_movie_detail_release"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/gray"
+        android:text="Release date"
+        tools:ignore="HardcodedText"
+        />
+
+    <TextView
+        android:id="@+id/lv_frag_movie_detail_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10sp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultrices efficitur lectus eu sagittis. Nulla vehicula enim urna, sed imperdiet nunc egestas vitae. Cras eget neque non risus efficitur tristique. Sed ut mauris rhoncus, dignissim nibh vulputate, tristique justo. Aliquam in imperdiet nibh. Nunc sed finibus est. Aenean molestie tincidunt mauris eu accumsan. Mauris sem mi, egestas eget lectus quis, semper tincidunt ante."
+        tools:ignore="HardcodedText"
+        />
+
+</LinearLayout>
